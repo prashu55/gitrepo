@@ -8,10 +8,18 @@ and dialogue of the characters in screenplay, in screenplay format.
 function Person(){
   this.age = 0;
 
-  setInterval(() => {
+i  setInterval(() => {
     // `this` now refers to the Person object, brilliant!
     this.age++;
   }, 1000);
 }
-
+i
 var p = new Person();
+
+ 
+hi #!/bin/sh
+echo "what is your name?"
+read name
+echo "How do you do, $name?"
+read remark
+echo "I am $remark too!"
